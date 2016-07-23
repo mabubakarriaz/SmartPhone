@@ -1,0 +1,213 @@
+﻿body{
+    padding:0px;
+    margin:0px;
+    font-family:sans-serif,Arial,Verdana;
+    font-size:11pt;
+    color:#808080;
+}
+
+/******* Common Styles ******/
+.clearsec{
+    clear:both;
+}
+
+.pnlnml{
+    padding:20px;
+    background-color:#dcdcdc;
+}
+
+/******** Main Layout*****/
+
+.workingarea{
+    width: 980px;
+    margin:auto;
+}
+
+
+.topbar {
+    padding:10px 0px;
+    background-color: #ff0000;
+    color: #ffffff;
+}
+
+.topbar a {
+    color:#ffffff;
+}
+
+.logosec{
+    padding:10px 0px;
+}
+
+.topbarsec1{
+    float:left;
+}
+
+.topbarsec2{
+    float:right;
+}
+
+/********* Home Page Styles ******/
+
+.hpglftsec{
+    width:270px;
+    margin:0px 10px 0px 0px;
+    float:left;
+}
+
+.hpgrgtsec{
+    width:700px;
+    margin:0px;
+    float:right;
+}
+
+.hpgcatlstitm{
+    margin:0px 0px 2px 0px;
+    padding:10px;
+    background-color:#d1d1d1;
+}
+
+.hpgcatlstitm a {
+    color:#808080;
+    text-decoration:none;
+}
+
+.hpgtopprodsec{
+
+}
+
+/********* Styles for Products*******/
+
+.prosmentry {
+    width:220px;
+    padding:4px;    
+    border:solid 1px #d1d1d1;
+    margin:2px 0px 2px 3px;
+    float:left;
+}
+.prosmimgwpr {
+    padding:20px 0px 10px 0px;
+    width:165px;
+    margin:auto;
+}
+.prosmimg {
+    width:165px;
+    height:165px;
+}
+.prosminfowpr {
+    text-align:center;
+    padding:10px 0px;
+}
+.prosmtitle {
+    color:#ff0000;
+    font-size:120%;
+    font-weight:normal;
+    padding:0px;
+    margin:0px;
+}
+.prosmprice {
+    margin:5px 0px;
+    font-size:110%;
+}
+.prosmbtnwpr {
+    background-color:#ff0000;
+    padding:10px;
+}
+
+.prosmbtn {
+    color:#ffffff;
+    text-decoration:none;
+    text-align:center;
+}
+ 
+
+
+
+/******** Main Slider********/
+.mslrsec{
+    
+}
+
+.mslrslide{
+    width:700px;
+    height:300px;
+}
+
+/********** Styles for forms and form controls************/
+.fldrow{
+      padding:0px 0px 8px 0px;
+}
+
+.fldlblwpr{
+    padding:0px 0px 1px 0px;
+}
+
+.fldlbl{
+    color:#808080;
+}
+
+.fldctlwpr{
+    padding:0px 0px 8px 0px;
+}
+
+.aky{
+    text-decoration:underline;
+}
+
+.tbxnml{
+    padding:5px;
+    border:solid 1px #808080;
+}
+
+.tbxreq{
+    padding:5px;
+    border:solid 1px #ff0000;
+}
+
+
+.tbxerr{
+    border:solid 1px #ff0000;
+}
+
+.ddlnml{
+    padding:5px;
+    border:solid 1px #808080;
+}
+
+.ddlerr{
+    padding:5px;
+    border:solid 1px #ff0000;
+}
+
+.btnpme{
+    padding:5px;
+    background-color:#ff0000;
+    color:#ffffff;
+    border:solid 1px #ff0000;
+
+}
+
+.btnnml{
+    padding:5px;
+    background-color:#ffffff;
+    color:#ff0000;
+    border:solid 1px #ff0000;
+
+}
+
+
+fieldset{
+    border: solid 1px #808080;
+}
+
+legend{
+    padding:0px 10px;
+}
+
+
+
+
+
+
+
+
+

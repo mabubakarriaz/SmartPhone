@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>OnlineShop - Add Product</title>
+    <link href="Contents/main.css" rel="stylesheet" />
+
+    <style type="text/css">
+        .mybox {
+            margin: 20px;
+            padding: 20px;
+            border: solid 5px #000000;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="topbar">
+            <div class="workingarea">
+                <div class="topbarsec1">
+                    <a href="#">Login</a> | <a href="#">Sign Up</a>
+                </div>
+                <div class="topbarsec2">
+                    <a href="#">Cart</a>
+                </div>
+                <div class="clearsec"></div>
+            </div>
+        </div>
+        <div class="workingarea">
+            <div class="logosec">
+                <img src="Contents/images/Logo.jpg" />
+            </div>
+        </div>
+    </header>
+
+    <div class="workingarea">
+        <div class="pnlnml" >
+            <form id="crtprdfrm" action="#"  method="post">
+
+                <fieldset style="width:430px;" >
+                    <legend>Brand</legend>
+                    <input id="samsung" name="brand" type="radio"  /><label for="samsung" class="fldlbl" accesskey="s"><span class="aky">S</span>amsung</label>
+                    <input id="iphone" name="brand" type="radio"  /><label for="iphone" class="fldlbl" accesskey="s">i<span class="aky">P</span>hone</label>
+                    <input id="qmobile" name="brand" type="radio" /><label for="qmobile" class="fldlbl" accesskey="s"><span class="aky">Q</span> Mobile</label>
+                </fieldset>
+
+
+                <div class="fldlblwpr">
+                    <label for="name" class="fldlbl" accesskey="n" ><span class="aky">N</span>ame</label>
+                </div>
+                <div class="fldlblwpr">
+                    <input id="name" type="text" class="tbxnml" style="width:300px" />
+                </div>
+                <div class="fldlblwpr">
+                    <label for="os" class="fldlbl" accesskey="o"><span class="aky">O</span>perating System</label>
+                </div>
+                <div class="fldlblwpr">
+                    <select id="os" class="ddlnml" style="width:130px" >
+                        <option value="-1">Select OS</option>
+                        <option value="1">Android</option>
+                        <option value="2">iOS</option>
+                        <option value="3">Windows</option>
+                    </select>
+                    <select id="osVersion" class="ddlnml" style="width:130px">
+                        <option value="-1">Select Version</option>
+                        <option value="1">MarshMello</option>
+                        <option value="2">LolliPop</option>
+                        <option value="3">KitKat</option>
+                    </select>
+                </div>
+
+                <div class="fldlblwpr">
+                    <label for="price" class="fldlbl" accesskey="r" >P<span class="aky">r</span>ice</label>
+                </div>
+                <div class="fldlblwpr">
+                    <input id="price" type="text" class="tbxnml" style="width:100px" />
+                </div>
+                <div class="fldlblwpr">
+                    <label for="description" class="fldlbl" accesskey="d"><span class="aky">D</span>escription</label>
+                </div>
+                <div class="fldlblwpr">
+                    <textarea class="tbxnml" style="width:450px" rows="10"></textarea>
+                </div>
+
+                <div class="fldlblwpr">
+                    <label for="rdate" class="fldlbl" accesskey="d"><span class="aky">R</span>elease Date</label>
+                </div>
+                <div class="fldlblwpr">
+                    <input id="rdate" type="text" class="tbxnml" style="width:100px" />
+                </div>
+                <div class="fldlblwpr">
+                    <label for="images" class="fldlbl" accesskey="i"><span class="aky">I</span>mages</label>
+                </div>
+                <div class="fldlblwpr">
+                    <input id="img1" name="img1" type="file" />
+                    <input id="img2" name="img2" type="file" />
+                    <input id="img3" name="img3" type="file" />
+                </div>
+
+                <div class="fldrow">
+                    <input type="submit" class="btnpme" style="width:100px" />
+                    <input type="reset" class="btnnml" style="width:100px" />
+                </div>
+
+            </form>
+        </div>
+    </div>
+</body>
+</html>
