@@ -7,54 +7,54 @@
 }
 
 /******* Common Styles ******/
-.clearsec{
+.clearSection{
     clear:both;
 }
 
-.pnlnml{
+.panelNormal{
     padding:20px;
     background-color:#dcdcdc;
 }
 
 /******** Main Layout*****/
 
-.workingarea{
+.workingArea{
     width: 980px;
     margin:auto;
 }
 
 
-.topbar {
+.topBar {
     padding:10px 0px;
     background-color: #ff0000;
     color: #ffffff;
 }
 
-.topbar a {
+.topBar a {
     color:#ffffff;
 }
 
-.logosec{
+.logoSection{
     padding:10px 0px;
 }
 
-.topbarsec1{
+.topBarSection1{
     float:left;
 }
 
-.topbarsec2{
+.topBarSection2{
     float:right;
 }
 
 /********* Home Page Styles ******/
 
-.hpglftsec{
+.hpgLeftSection{
     width:270px;
     margin:0px 10px 0px 0px;
     float:left;
 }
 
-.hpgrgtsec{
+.hpgRightSection{
     width:700px;
     margin:0px;
     float:right;
