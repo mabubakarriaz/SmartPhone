@@ -1,15 +1,7 @@
-﻿body{
-    padding:0px;
-    margin:0px;
-    font-family:sans-serif,Arial,Verdana;
-    font-size:11pt;
-    color:#808080;
-}
+﻿
 
 /******* Common Styles ******/
-.clearSection{
-    clear:both;
-}
+
 
 .panelNormal{
     padding:20px;
@@ -151,7 +143,7 @@
     padding:0px 0px 8px 0px;
 }
 
-.aky{
+.accessKey{
     text-decoration:underline;
 }
 

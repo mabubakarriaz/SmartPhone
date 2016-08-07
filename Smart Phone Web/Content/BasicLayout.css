@@ -1,0 +1,53 @@
+﻿body {
+    padding: 0px;
+    margin: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10pt;
+    color:black;
+}
+
+/* ------------- Areas -------------- */
+
+.workingArea {
+    width: 980px;
+    margin: auto;
+    /*background-color: #ff0000;*/
+}
+
+.registerArea {
+    width: 500px;
+    margin: auto;
+    /*background-color:blueviolet;*/
+}
+
+
+.clearSection {
+    clear:both;
+}
+
+.badgeCreateAccount {
+    /*border-style:solid;
+    border-color:lightgray;
+    border-width:thin;*/
+
+    /*background-color:white;*/
+
+    padding:20px
+}
+
+.controlWrapper {
+    width:427px;
+    float:left;
+    clear:right;
+    padding-bottom:5px;
+}
+
+.box {
+    border-style:solid;
+    border-color:lightgray;
+    border-width:thin;
+
+    height:40px;
+    vertical-align:middle;
+}
+
