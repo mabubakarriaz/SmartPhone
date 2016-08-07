@@ -42,12 +42,18 @@
     padding-bottom:5px;
 }
 
-.box {
-    border-style:solid;
-    border-color:lightgray;
-    border-width:thin;
-
-    height:40px;
-    vertical-align:middle;
+.fieldControlWrapper {
+    clear:right;
+padding-bottom:5px;
 }
 
+#login {
+width:400px;
+
+}
+
+
+#loginButton {
+    width:100px;
+    background-color:aqua;
+}
