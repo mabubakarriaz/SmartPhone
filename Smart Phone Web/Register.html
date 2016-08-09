@@ -3,16 +3,17 @@
 <head>
     <title>Create a new customer account</title>
 
-    <link href="Content/myStyles/BasicLayout.css" rel="stylesheet" />
+    
     <link href="Content/semantic.min.css" rel="stylesheet" />
+    <link href="Content/myStyles/BasicLayout.css" rel="stylesheet" />
     <meta charset="utf-8" />
 </head>
-<body style="background-color:whitesmoke">
+<body >
 
     <header>
         <section class="workingArea">
             <section class="registerArea">
-                <div class="controlWrapper">
+                <div class="fieldControlWrapper">
                     <p>&nbsp;</p>
                 </div>
                 <div align="center">
@@ -26,7 +27,10 @@
         <section class="registerArea">
             <section class="badgeCreateAccount">
                 <h1 class="ui top attached header" align="Center">
-                    Create Account
+                    <div class="content">
+                        Register Account
+                        <div class="sub header">Create a new customer account</div>
+                    </div>
                 </h1>
                 <div class="ui attached segment">
                     <form class="ui form">
@@ -34,7 +38,7 @@
 
                         <!-- Required basic Info -->
 
-                        <div class="controlWrapper">
+                        <div class="fieldControlWrapper">
                             <div class="ui horizontal segments">
                                 <div class="ui center aligned segment">
                                     <div class="field">
@@ -66,21 +70,21 @@
                             </div>
                         </div>
 
-                        <div class="controlWrapper">
+                        <div class="fieldControlWrapper">
                             <div class="ui fluid left icon input">
                                 <input type="text" placeholder="User Name" accesskey="u">
                                 <i class="user icon"></i>
                             </div>
                         </div>
 
-                        <div class="controlWrapper">
+                        <div class="fieldControlWrapper">
                             <div class="ui fluid left icon input">
                                 <input type="text" placeholder="Your Email" accesskey="e">
                                 <i class="at icon"></i>
                             </div>
                         </div>
 
-                        <div class="controlWrapper">
+                        <div class="fieldControlWrapper">
                             <div class="field">
                                 <div class="ui fluid left icon input">
                                     <input type="password" placeholder="Your Password" accesskey="p">
@@ -89,7 +93,7 @@
                             </div>
                         </div>
 
-                        <div class="controlWrapper">
+                        <div class="fieldControlWrapper">
                             <div class="field">
                                 <div class="ui checkbox">
                                     <input tabindex="0" id="agree" type="checkbox">
@@ -98,24 +102,24 @@
                             </div>
                         </div>
 
-                        <div class="controlWrapper">
+                        <div class="fieldControlWrapper">
                             <p>&nbsp;</p>
                         </div>
 
-                        <div class="controlWrapper">
+                        <div class="fieldControlWrapper">
                             <button class="fluid ui positive button" type="submit" accesskey="r">
                                 <i class="user icon"></i>
                                 <u>R</u>egister
                             </button>
                         </div>
                     </form>
-                    <div class="controlWrapper">
+                    <div class="fieldControlWrapper">
                         <div class="ui horizontal divider">
                             Or
                         </div>
                     </div>
                     <!-- OR -->
-                    <div class="controlWrapper">
+                    <div class="fieldControlWrapper">
 
                         <button class="fluid ui facebook button" accesskey="b">
                             <i class="facebook icon"></i>
@@ -123,14 +127,14 @@
                         </button>
                     </div>
 
-                    <div class="controlWrapper">
+                    <div class="fieldControlWrapper">
                         <button class="fluid ui google plus button" accesskey="g">
                             <i class="google plus icon"></i>
                             Login with &nbsp;<u>G</u>oogle Plus
                         </button>
 
                     </div>
-                    <div class="controlWrapper">
+                    <div class="fieldControlWrapper">
                         <div class="ui divider"></div>
                     </div>
                     <p align="center">Already have an account? <a href="Index.html" accesskey="l"><u>L</u>ogin here</a></p>
