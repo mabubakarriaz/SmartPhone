@@ -1,6 +1,6 @@
 {
   "name": "Smartphone",
   "tagline": "An EVS Project",
-  "body": "### Welcome to Smart Phone Project.\r\nA .Net Specialist project \r\n\r\n### Designer Templates\r\nThe Web includes the static webpages with third party UI and jQuery\r\n\r\n### Support or Contact\r\nHaving trouble with Pages? contact me at abubakar.riaz@outlook.com\r\n",
+  "body": "### Welcome to Smart Phone Project.\r\nAn EVS Class Project of Ecommerce Smart phone online sale/purchase portal using ASP.net MVC, Class Libraries, jQuery & web services\r\n\r\n### Smart Phone Web - 0.1\r\nFolder with name smart phone web only contains static web pages build using jQuery, CSS, HTML and third party UI\r\n\r\n### Support or Contact\r\nHaving trouble with Pages? contact me at abubakar.riaz@outlook.com\r\n",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
