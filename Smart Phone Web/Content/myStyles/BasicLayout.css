@@ -43,3 +43,18 @@ width:400px;
 width:600px;
  margin: auto;
 }
+
+.main-menu-logo {
+height:70px;
+/*padding-top:10px;*/
+
+}
+
+.footer.segment {
+      padding: 5em 0em;
+      
+    }
+
+.pusher {
+margin-top:20px;
+}
