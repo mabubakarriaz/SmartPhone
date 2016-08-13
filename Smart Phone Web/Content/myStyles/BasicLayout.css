@@ -9,10 +9,10 @@
     margin: 0px auto;
 }
 
-#workingArea {
+/*#workingArea {
     width: 980px;
     margin: auto;
-}
+}*/
 
 .registerArea {
     width: 500px;
@@ -35,7 +35,7 @@
 
 #login {
 width:400px;
-
+z-index:100;
 }
 
 /*#loginButton {
