@@ -15013,7 +15013,7 @@ ol.ui.horizontal.list li:before,
 .ui.rail {
   position: absolute;
   top: 0%;
-  width: 300px;
+  width: 100px;
   height: 100%;
 }
 
@@ -15078,7 +15078,7 @@ ol.ui.horizontal.list li:before,
 ---------------*/
 
 .ui.close.rail {
-  width: calc( 300px  +  1em );
+  width: calc( 100px  +  1em );
 }
 
 .ui.close.left.rail {
@@ -15092,7 +15092,7 @@ ol.ui.horizontal.list li:before,
 }
 
 .ui.very.close.rail {
-  width: calc( 300px  +  0.5em );
+  width: calc( 100px  +  0.5em );
 }
 
 .ui.very.close.left.rail {

@@ -6,8 +6,12 @@
 
 .workingArea {
     width: 980px;
+    margin: 0px auto;
+}
+
+#workingArea {
+    width: 980px;
     margin: auto;
-    
 }
 
 .registerArea {
@@ -55,6 +59,10 @@ height:70px;
       
     }
 
-.pusher {
+/*.pusher {
 margin-top:20px;
+}*/
+
+.breadcrumb {
+    padding:10px;
 }

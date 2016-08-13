@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+
+
+    <link href="Content/semantic.min.css" rel="stylesheet" />
+    <link href="Content/myStyles/BasicLayout.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="ui segment" id="example1" style="width:600px; margin:auto">
+        <div class="left ui rail" style="min-height: 262.531px;">
+            <p></p>
+            <p></p>
+            <p></p>
+            <div class="ui sticky" style="width: 272px !important; height: 262.531px !important; left: 274.5px;">
+                <h3 class="ui header">Stuck Content</h3>
+                <img>
+            </div>
+        </div>
+        <div class="right ui rail" style="min-height: 262.531px;">
+            <div class="ui sticky" style="width: 272px !important; height: 262.531px !important; left: 1356.5px;">
+                <h3 class="ui header">Stuck Content</h3>
+                <img>
+            </div>
+        </div>
+        <p>h</p>
+        <p>f</p>
+        <p>g</p>
+        <p>g</p>
+        <p>rh</p>
+        <p>j</p>
+        <p>r</p>
+        <p>s</p>
+        <p>x</p>
+    </div>
+
+    <div class="ui segment" style="width:600px; margin:auto">
+        <div class="ui left dividing rail">
+            <div class="ui segment">
+                Left Rail Content
+            </div>
+        </div>
+        <div class="ui right dividing rail">
+            <div class="ui segment">
+                Right Rail Content
+            </div>
+        </div>
+        <p></p>
+        <p></p>
+    </div>
+
+
+    <script src="Scripts/jquery-3.1.0.min.js"></script>
+    <script src="Scripts/jquery-ui-1.12.0.min.js"></script>
+    <script src="Scripts/semantic.min.js"></script>
+
+
+    <script>
+        $('.ui.sticky')
+  .sticky({
+      context: '#example1'
+  })
+        ;
+
+    </script>
+
+</body>
+</html>
