@@ -18,6 +18,19 @@ namespace Com.SmartPhone.App.WebUI
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
             );
+
+            routes.MapRoute("Login",
+            "User/Cars/ForSale/{id}",
+            new { controller = "User", action = "Login", id = UrlParameter.Optional });
+
+            routes.MapRoute("ForgorPassword",
+            "User/search",
+            new { controller = "User", action = "ForgotPassword" });
+
+            routes.MapRoute("Register",
+            "User/Register/ForSale/{id}",
+            new { controller = "User", action = "Register", id = UrlParameter.Optional });
+
         }
     }
 }

@@ -1,0 +1,207 @@
+﻿
+
+/******* Common Styles ******/
+
+
+.panelNormal{
+    padding:20px;
+    background-color:#dcdcdc;
+}
+
+/******** Main Layout*****/
+
+.workingArea{
+    width: 980px;
+    margin:auto;
+}
+
+
+.topBar {
+    padding:10px 0px;
+    background-color: #ff0000;
+    color: #ffffff;
+}
+
+.topBar a {
+    color:#ffffff;
+}
+
+.logoSection{
+    padding:10px 0px;
+}
+
+.topBarSection1{
+    float:left;
+}
+
+.topBarSection2{
+    float:right;
+}
+
+/********* Home Page Styles ******/
+
+.hpgLeftSection{
+    width:270px;
+    margin:0px 10px 0px 0px;
+    float:left;
+}
+
+.hpgRightSection{
+    width:700px;
+    margin:0px;
+    float:right;
+}
+
+.hpgCategoryListItem{
+    margin:0px 0px 2px 0px;
+    padding:10px;
+    background-color:#d1d1d1;
+}
+
+.hpgCategoryListItem a {
+    color:#808080;
+    text-decoration:none;
+}
+
+.hpgTopProductSection{
+
+}
+
+/********* Styles for Products*******/
+
+.prosmentry {
+    width:220px;
+    padding:4px;    
+    border:solid 1px #d1d1d1;
+    margin:2px 0px 2px 3px;
+    float:left;
+}
+.prosmImageWrapper {
+    padding:20px 0px 10px 0px;
+    width:165px;
+    margin:auto;
+}
+.prosmImage {
+    width:165px;
+    height:165px;
+}
+.prosmInfoWrapper {
+    text-align:center;
+    padding:10px 0px;
+}
+.prosmTitle {
+    color:#ff0000;
+    font-size:120%;
+    font-weight:normal;
+    padding:0px;
+    margin:0px;
+}
+.prosmPrice {
+    margin:5px 0px;
+    font-size:110%;
+}
+.prosmButtonWrapper {
+    background-color:#ff0000;
+    padding:10px;
+}
+
+.prosmButton {
+    color:#ffffff;
+    text-decoration:none;
+    text-align:center;
+}
+ 
+
+
+
+/******** Main Slider********/
+
+.mainSliderSection{
+    
+}
+
+.mainSliderSlide{
+    width:700px;
+    height:300px;
+}
+
+/********** Styles for forms and form controls************/
+
+.fieldRow{
+      padding:0px 0px 8px 0px;
+}
+
+.fieldLabelWrapper{
+    padding:0px 0px 1px 0px;
+}
+
+.fieldLabel{
+    color:#808080;
+}
+
+.fieldControlWrapper{
+    padding:0px 0px 8px 0px;
+}
+
+.accessKey{
+    text-decoration:underline;
+}
+
+.textBoxNormal{
+    padding:5px;
+    border:solid 1px #808080;
+}
+
+.textBoxRequired{
+    padding:5px;
+    border:solid 1px #ff0000;
+}
+
+
+.textBoxError{
+    border:solid 1px #ff0000;
+}
+
+.ddlnml{
+    padding:5px;
+    border:solid 1px #808080;
+}
+
+.ddlerr{
+    padding:5px;
+    border:solid 1px #ff0000;
+}
+
+.buttonPrimary{
+    padding:5px;
+    background-color:#ff0000;
+    color:#ffffff;
+    border:solid 1px #ff0000;
+
+}
+
+.buttonNormal{
+    padding:5px;
+    background-color:#ffffff;
+    color:#ff0000;
+    border:solid 1px #ff0000;
+
+}
+
+
+fieldset{
+    border: solid 1px #808080;
+}
+
+legend{
+    padding:0px 10px;
+}
+
+
+
+
+
+
+
+
+

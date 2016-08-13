@@ -1,0 +1,60 @@
+﻿body {
+    background-color:whitesmoke;
+}
+
+/* ------------- Areas -------------- */
+
+.workingArea {
+    width: 980px;
+    margin: auto;
+    
+}
+
+.registerArea {
+    width: 500px;
+    margin: auto;
+   
+}
+
+.clearSection {
+    clear:both;
+}
+
+.badgeCreateAccount {
+    padding:20px
+}
+
+.fieldControlWrapper {
+    clear:right;
+    padding-bottom:5px;
+}
+
+#login {
+width:400px;
+
+}
+
+/*#loginButton {
+    width:100px;
+    background-color:aqua;
+}*/
+
+.forgotPasswordSection {
+width:600px;
+ margin: auto;
+}
+
+.main-menu-logo {
+height:70px;
+/*padding-top:10px;*/
+
+}
+
+.footer.segment {
+      padding: 5em 0em;
+      
+    }
+
+.pusher {
+margin-top:20px;
+}

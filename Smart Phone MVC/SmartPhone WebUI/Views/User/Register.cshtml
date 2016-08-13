@@ -1,0 +1,169 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Create a new customer account</title>
+
+
+    <link href="~/Content/semantic.min.css" rel="stylesheet" />
+    <link href="~/Content/myStyles/BasicLayout.css" rel="stylesheet" />
+    <meta charset="utf-8" />
+</head>
+<body>
+
+    <header>
+        <section class="workingArea">
+            <section class="registerArea">
+                <div class="fieldControlWrapper">
+                    <p>&nbsp;</p>
+                </div>
+                <div align="center">
+                    <img src="~/Content/images/logo-full-grey.png" width="200" />
+                </div>
+            </section>
+        </section>
+    </header>
+
+    <section class="workingArea">
+        <section class="registerArea">
+            <section class="badgeCreateAccount">
+                <h1 class="ui top attached header" align="Center">
+                    <div class="content">
+                        Register Account
+                        <div class="sub header">Create a new customer account</div>
+                    </div>
+                </h1>
+                <div class="ui attached segment">
+                    <form class="ui form">
+
+
+                        <!-- Required basic Info -->
+
+                        <div class="fieldControlWrapper">
+                            <div class="ui horizontal segments">
+                                <div class="ui center aligned segment">
+                                    <div class="field">
+                                        <div class="ui radio checkbox">
+
+                                            <input name="gender" id="male" type="radio" checked="checked">
+                                            <label for="male" accesskey="m">
+                                                <u>M</u>ale
+                                                <i class="man icon"></i>
+                                            </label>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="ui center aligned segment">
+                                    <div class="field">
+                                        <div class="ui radio checkbox">
+                                            <input name="gender" id="female" type="radio">
+                                            <label for="female" accesskey="f">
+                                                <u>F</u>emale
+                                                <i class="woman icon"></i>
+                                            </label>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="fieldControlWrapper">
+                            <div class="field">
+                                <div class="ui fluid left icon input">
+                                    <input type="text" placeholder="User Name" accesskey="u" name="username">
+                                    <i class="user icon"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="fieldControlWrapper">
+                            <div class="field">
+                                <div class="ui fluid left icon input">
+                                    <input type="text" placeholder="Your Email" accesskey="e" name="email">
+                                    <i class="at icon"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="fieldControlWrapper">
+                            <div class="field">
+                                <div class="ui fluid left icon input">
+                                    <input type="password" placeholder="Your Password" accesskey="p" name="password">
+                                    <i class="unlock alternate icon"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="fieldControlWrapper">
+                            <div class="field">
+                                <div class="ui checkbox">
+                                    <input tabindex="0" id="agree" type="checkbox" name="terms">
+                                    <label for="agree" accesskey="a">I <u>a</u>gree to the <a href="#">Terms and Services</a></label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="fieldControlWrapper">
+                            <p>&nbsp;</p>
+                        </div>
+
+                        <div class="fieldControlWrapper">
+                            <button class="fluid ui positive button" type="submit" accesskey="r">
+                                <i class="user icon"></i>
+                                <u>R</u>egister
+                            </button>
+                        </div>
+                    </form>
+                    <div class="fieldControlWrapper">
+                        <div class="ui horizontal divider">
+                            Or
+                        </div>
+                    </div>
+                    <!-- OR -->
+                    <div class="fieldControlWrapper">
+
+                        <button class="fluid ui facebook button" accesskey="b">
+                            <i class="facebook icon"></i>
+                            Login with Face<u>b</u>ook
+                        </button>
+                    </div>
+
+                    <div class="fieldControlWrapper">
+                        <button class="fluid ui google plus button" accesskey="g">
+                            <i class="google plus icon"></i>
+                            Login with &nbsp;<u>G</u>oogle Plus
+                        </button>
+
+                    </div>
+                    <div class="fieldControlWrapper">
+                        <div class="ui divider"></div>
+                    </div>
+                    <p align="center">Already have an account? <a href="Index.html" accesskey="l"><u>L</u>ogin here</a></p>
+                </div>
+            </section>
+        </section>
+    </section>
+    <script src="~/Scripts/jquery-3.1.0.min.js"></script>
+    <script src="~/Scripts/jquery-ui-1.12.0.min.js"></script>
+    <script src="~/Scripts/semantic.min.js"></script>
+
+    <script>
+        $('.ui.form')
+                  .form({
+                      fields: {
+                          username: 'empty',
+                          email: 'email',
+                          username: 'empty',
+                          password: ['minLength[6]', 'empty'],
+                          terms: 'checked'
+                            },
+                      inline: true,
+                      on: 'blur',
+                        });
+
+    </script>
+</body>
+</html>
